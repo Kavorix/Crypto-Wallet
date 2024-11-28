@@ -31,8 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "multichain-crypto-wallet",
-  "author": "iamnotstatic",
+  "name": "crypto-wallet",
   "keywords": [
     "multichain",
     "crypto",
@@ -52,9 +51,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamnotstatic/multichain-crypto-wallet"
+    "url": "https://github.com/Kavorix/Crypto-Wallet"
   },
-  "homepage": "https://github.com/iamnotstatic/multichain-crypto-wallet/blob/main/README.md",
   "module": "dist/multichain-crypto-wallet.esm.js",
   "size-limit": [
     {
@@ -75,7 +73,7 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "@bitgo/utxo-lib": "https://github.com/ren-forks/bitgo-utxo-lib#b848585e65b42c48b98c207e72d7d3006c9a5da0",
+    "@bitgo/utxo-lib": "",
     "@solana/spl-token": "^0.2.0",
     "@solana/web3.js": "^1.39.1",
     "@truffle/hdwallet-provider": "^2.0.5",
